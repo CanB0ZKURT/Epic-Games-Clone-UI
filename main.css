@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #000;
+}
+
+/* Left Bar */
+
+.epic-lg{
+    position: relative;
+    right: 30px;
+}
+
+.left-bar{
+    width: 307px;
+    height: 969px;
+    background-color: #000;
+}
+
+#hr-1{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 305%;
+    position: relative;
+    top: 390px;
+    right: 162px;
+    border-color: rgb(70, 70, 70);
+}
+
+#epic-logo{
+    position: absolute;
+    left: 49px;
+    top: 54px;
+    width: 85px;
+}
+
+#eg-text{
+    color: white;
+    position: relative;
+    left: 140px;
+    top: 80px;
+    display: inline-block;
+}
+
+.fa-home{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    top: 170px;
+    color: #979797;
+    transition: 0.2s;
+}
+
+p{
+    display: inline-block;
+}
+
+.home-page{
+    font-size: 18px; 
+    position: relative;
+    left: 20px;
+}
+
+.fa-home:hover{
+    color: white;
+}
+
+.fa-ticket-alt{
+    color: white;
+    font-size: 22px;
+    position: relative;
+    left: -60px;
+    top: 245px;
+    color: #979797;
+    transition: 0.2s;
+}
+
+.home-page2{
+    font-size: 18px; 
+    position: relative;
+    left: 20px;
+    top: -1px;
+}
+
+.fa-ticket-alt:hover{
+    color: white;
+}
+
+.home-page3{
+    font-size: 18px; 
+    position: relative;
+    left: 25px;
+    top: -1px;
+}
+
+.fa-book{
+    color: white;
+    font-size: 22px;
+    position: relative;
+    left: 55px;
+    top: 295px;
+    color: #979797;
+    transition: 0.2s;
+}
+
+.fa-book:hover{
+    color: white;
+}
+
+.download-page{
+    font-size: 18px; 
+    position: relative;
+    left: 20px;
+}
+
+.fa-download{
+    color: white;
+    font-size: 22px;
+    position: relative;
+    left: -55px;
+    top: 810px;
+    color: #979797;
+    transition: 0.2s;
+}
+
+.fa-cogs{
+    color: white;
+    font-size: 22px;
+    position: relative;
+    left: 60px;
+    top: 850px;
+    color: #979797;
+    transition: 0.2s;
+}
+
+.settings-page{
+    font-size: 18px; 
+    position: relative;
+    left: 20px;
+}
+
+.fa-download:hover{
+    color: white;
+}
+
+.fa-cogs:hover{
+    color: white;
+}
+
+i{
+    cursor: pointer;
+}
+
+/* Right Bar */
+
+.right-bar{
+    width: 307px;
+    height: 969px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+/* Right Bar Content */
+/* Alan Wake Remastered */
+#awr{
+    color: rgb(223, 223, 223);
+    font-size: 18;
+    position: absolute;
+    top: 243px;
+    left: 120px;
+    display: inline-block;
+}
+
+#aw{
+    width: 60px;
+    position: absolute;
+    top: 235px;
+    left: 35px;
+    border-radius: 10px;
+}
+
+.alan-wake{
+    width: 280px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    position: relative;
+    top: 225px;
+    left: 13px;
+    transition: 0.2s;
+}
+
+.alan-wake:hover{
+    display: inline-block;
+    background-color: rgb(51, 51, 51);
+}
+
+.awp{
+    position: absolute;
+    top: -90px;
+    cursor: pointer;
+}
+
+/* Far Cry 6 */
+
+#fc6{
+    color: rgb(223, 223, 223);
+    font-size: 18;
+    position: absolute;
+    top: 255px;
+    left: 120px;
+    display: inline-block;
+}
+
+#fc{
+    width: 60px;
+    position: absolute;
+    top: 235px;
+    left: 35px;
+    border-radius: 10px;
+}
+
+.farcry-6{
+    width: 280px;
+    height: 80px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    position: relative;
+    top: 225px;
+    left: 13px;
+    transition: 0.2s;
+}
+
+.fc6{
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+
+/* Neo */
+
+#neo-logo{
+    width: 60px;
+    border-radius: 10px;
+    position: absolute;
+    left: 35px;
+    top: 340px;
+}
+
+.neo-bg{
+    width: 280px;
+    height: 80px;
+    background-color: #000;
+    border-radius: 10px;
+    position: relative;
+    top: 330px;
+    left: 13px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.neo-bg:hover{
+    display: inline-block;
+    background-color: rgb(51, 51, 51);
+}
+
+#neo3{
+    color: rgb(223, 223, 223);
+    font-size: 18;
+    position: absolute;
+    top: 346px;
+    left: 120px;
+    display: inline-block;
+}
+
+/* The Eternal Cylinder */
+
+#eternal-logo{
+    width: 60px;
+    border-radius: 10px;
+    position: absolute;
+    left: 35px;
+    top: 340px;
+}
+
+.eternal-bg{
+    width: 280px;
+    height: 80px;
+    background-color: #000;
+    border-radius: 10px;
+    position: relative;
+    top: 330px;
+    left: 13px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.eternal-bg:hover{
+    display: inline-block;
+    background-color: rgb(51, 51, 51);
+}
+
+#eternal{
+    color: rgb(223, 223, 223);
+    font-size: 18;
+    position: absolute;
+    top: 360px;
+    left: 120px;
+    display: inline-block;
+}
+
+.eternal{
+    position: absolute;
+    top: 100px;
+}
+
+/* Kena: Bridge Of Spirts */
+
+#kena-logo{
+    width: 60px;
+    border-radius: 10px;
+    position: absolute;
+    left: 35px;
+    top: 340px;
+}
+
+.kena-bg{
+    width: 280px;
+    height: 80px;
+    background-color: #000;
+    border-radius: 10px;
+    position: relative;
+    top: 330px;
+    left: 13px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.kena-bg:hover{
+    display: inline-block;
+    background-color: rgb(51, 51, 51);
+}
+
+#kenapc{
+    color: rgb(223, 223, 223);
+    font-size: 18;
+    position: absolute;
+    top: 345px;
+    left: 120px;
+    display: inline-block;
+}
+
+.kena{
+    position: absolute;
+    top: 190px;
+}
+
+/* Main Content */
+
+#fc6-p{
+    position: absolute;
+    top: 100px;
+    left: 340px;
+    width: 1250px;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+
+#fc6-text{
+    color: #FFF;
+    position: absolute;
+    top: 450px;
+    left: 400px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#t2-fc6{
+    font-size: 20px;
+    color: rgb(206, 206, 206);
+}
+
+#shop{
+    font-size: 20px;
+    color: rgb(206, 206, 206);
+}
+
+#shop2{
+    font-weight: normal;
+}
+
+.positioning2{
+    position: absolute;
+    top: 213.4px;
+    margin-left: 15px;
+}
+
+.shop-btn{
+    background-color: #FFF;
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    top: 720px;
+    left: 400px;
+    border-radius: 5px;
+    line-height: 60px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.text-pst{
+    position: absolute;
+    left: 45px;
+    font-size: 17px;
+}
+
+.shop-btn:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.fa-plus-circle{
+    color: #FFF;
+    position: absolute;
+    top: 740px;
+    left: 720px;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+#circle-text{
+    position: absolute;
+    left: 25px;
+    color: #FFF;
+    font-weight: bold;
+    top: 736px;
+    left: 750px;
+    font-size: 18px;
+    transition: 0.2s;
+    cursor: pointer;
+}
